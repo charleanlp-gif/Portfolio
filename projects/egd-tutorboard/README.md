@@ -6,6 +6,12 @@ EGD TutorBoard is a specialised digital drawing-board application for Engineerin
 
 It was created because generic whiteboards and geometry tools did not provide the combination of accurate page sizes, millimetre-based measurements, realistic drawing instruments and multi-page workflow needed for practical EGD tutoring.
 
+## Prototype preview
+
+![EGD TutorBoard work-in-progress cover](screenshots/cover.webp)
+
+*Work-in-progress cover created inside TutorBoard itself using the app's drawing tools and physical-style EGD instruments.*
+
 ## The problem
 
 Online EGD tutoring is difficult when the software behaves like a normal whiteboard instead of a technical drawing board. Tutors and learners need tools that support proper drawing technique, accurate measurements and realistic interaction with EGD instruments.
@@ -39,6 +45,44 @@ The app is designed to support both teaching and practical drawing while still r
 - Global Ctrl+Z undo framework for supported actions
 - Collapsible left toolbar and right Properties panel
 - Automatic workspace enlargement when side panels are collapsed
+
+## Working prototype gallery
+
+### Board ruler
+
+![Board ruler with calibrated millimetre markings and properties](screenshots/board-ruler.webp)
+
+The board ruler can be moved, locked, repositioned from either page edge and adjusted for opacity.
+
+### Triangle and ruler snapping
+
+![30/60 triangle snapped to the board ruler](screenshots/triangle-snap.webp)
+
+The 30°/60° and 45° triangles behave like physical drawing guides. They can be moved, rotated, flipped and locked, and can snap to the board ruler.
+
+### Compass and editable arc drawing
+
+![Compass drawing an arc in EGD TutorBoard](screenshots/compass-arc.webp)
+
+The compass uses a physical-style pivot and pencil-leg interaction. When locked in place, it can draw arcs that are stored as editable drawing objects.
+
+### Dimension lines
+
+![Dimension line with measured length and editable properties](screenshots/dimension-line.webp)
+
+Dimension lines show measured length and expose properties such as dimension text, line colour, line thickness and offset.
+
+### Multi-page drawing workspace
+
+![Multiple EGD drawing pages in one project](screenshots/multi-page.webp)
+
+Projects can contain multiple drawing pages, with page size, orientation and lock state managed per page.
+
+### Expanded workspace
+
+![TutorBoard workspace with side panels collapsed](screenshots/expanded-workspace.webp)
+
+The left toolbar and right Properties panel can be collapsed to give the drawing page more screen space while preserving the current work.
 
 ## A deliberate design decision
 
@@ -79,20 +123,6 @@ The core drawing-instrument system is already functional, but the project is sti
 - PDF/image export
 - Tutorial and revision content
 - Final Microsoft Store packaging and release
-
-## Screenshots
-
-Screenshots of the current working prototype will be added soon.
-
-Planned screenshots will show:
-
-- Main workspace with multiple EGD instruments
-- Board ruler and triangle stencil behaviour
-- 360° protractor
-- Compass with a drawn arc
-- Dimension Line tool and snapping
-- Multi-page drawing layout
-- Expanded workspace with the side panels collapsed
 
 ## Project goal
 
